@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+.head{
+    padding: 2rem 4rem 4rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: right;
+    padding: 1.5rem 2rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    gap: 2rem;
+}
+a{
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+@import url('https://fonts.google.com/specimen/Open+Sans?query=Open+Sans');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem;
+    justify-content: space-between;
+    height: 40vh;
+    width: 98.6vw;
+}
+.info{
+    width: 45%;
+    height: 30vh;
+}
+.img{
+    width: 37%;
+    height: 30vh;
+    /* justify-content: right;
+    align-items: right; */
+}
+button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    width: 30%;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+input{
+    width: 65%;
+    padding: 1rem;
+    margin-top: 4rem 0;
+    border: 1px solid hsl(223, 47%, 23%);
+}
+#bg{
+    background-image: url('./images/bg-curve-desktop.svg');
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    padding: 0 4rem 0 4rem;
+    margin-top: 200px;
+}
+#space{
+    margin-bottom: 200px;
+}
+
+.rectangle{
+    background-color:white;
+    width: 300px;
+    height: 230px;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 20px;
+    box-shadow: 0 0 5px;
+    padding: 1rem;
+}
+.ava{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.avat{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: justify;
+}
+.bbb{
+    width: 100%;
+}
+.bb{
+    width: 40%;
+    margin-top: 1rem;
+}
+#get{
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    align-items: center;
+    padding: 4rem 4rem 0 4rem;
+    text-align: justify;
+    
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    gap: 1rem;
+    padding-top: 6rem;
+}
+.last{
+    background-color:hsl(243, 87%, 12%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem 10rem 4rem 4rem;
+    justify-content: space-between;
+    height: 50vh;
+    width: 98.6vw;
+    color: white;
+}
+.white{
+    fill: white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-style: normal;
+    }
+    .logo{
+        width: 90px;
+        height: 50px;
+    }
+    .head{
+        padding: 0;
+        
+        
+    }
+    .container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    }
+    .info {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 25rem;
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    
+    .img {
+        width: 85%;
+        height: auto;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .pb{
+        text-align: justify;
+        font-size: 14px;
+        padding-top: 1rem;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    button{
+        width: 100%;
+    }
+    #bg {
+        background-image: url('images/bg-curve-mobile.svg');
+        background-size: cover;
+        height: auto;
+        background-position: center;
+        padding: 1rem;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .rectangle{
+        background-color:white;
+        width: 300px;
+        height: 200px;
+    }
+    #space{
+        margin-bottom: 4rem;
+    }
+    #get{
+        flex-direction: column;
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+        width: 100%;
+        padding: 2rem;
+        padding-bottom: 4rem;
+    }
+    #pim{
+        font-size: 16px;
+    }
+    
+    
+    .bbb{
+        margin-top: 2rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .bb{
+        width: 100%;
+        margin-top: 0;
+    }
+    .last{
+        background-color:hsl(243, 87%, 12%);
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        height: auto;
+        width:100%;
+        color: white;
+        text-align: left;
+        padding: 4rem 4rem 2rem 0rem;
+    }
+    ol{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        font-family: 'Raleway', sans-serif;
+        gap: 1rem;
+        align-items: left;
+        padding: 2rem 8rem 2rem 0rem;
+    }
+    .icon{
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 2rem 2rem 8rem;
+
+    }
+
+    
+    
+}
